@@ -4,8 +4,10 @@ Heatmap &amp; contour of $\Lambda(\varepsilon, \alpha, \kappa)=\mathbb E \left [
 # $\Lambda(\varepsilon, \alpha, \kappa)$ — Heatmap & Contour with Gauss–Laguerre Quadrature
 
 This repository computes and visualizes
+<p align="center">
 $$\Lambda(\varepsilon,\alpha,\kappa) = \mathbb{E}\left[X/(1+X)\right] - \alpha,
 \qquad X\sim \mathrm{Gamma}(k,\theta),$$
+</p>
 on a 2D grid for fixed $\varepsilon>0$ while $\alpha$ (x-axis) and $\kappa$ (y-axis) vary.  
 It uses **Gauss–Laguerre quadrature in log-space** for numerical stability and **analytic continuation** when $\varepsilon^2\ge 2$. High-precision special functions are handled with `mpmath`.
 
