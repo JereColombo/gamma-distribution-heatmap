@@ -58,3 +58,10 @@ which is implemented with `mpmath` (regularized upper incomplete gamma) in log-s
 - **High precision** special functions (`mpmath`, configurable `mp.mp.dps`)
 - **Automatic regime selection**: quadrature for `eps**2 < 2`.
 - **Fast precomputation in kappa**: Lambda = E[X / (1 + X)] – alpha is precomputed over kappa and broadcast over alpha
+
+
+## Getting started
+
+### 1) Install dependencies
+```bash
+pip install -r requirements.txt
